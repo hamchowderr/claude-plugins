@@ -1,0 +1,25 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "HamCh"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for power users — deep analytics, workflow tools, and more",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "insightful",
+      "source": "./plugins/insightful",
+      "description": "Generate a comprehensive HTML insights report from your ENTIRE Claude Code history — every session, every project, all time. The built-in /insights covers recent activity; Insightful covers everything.",
+      "version": "1.0.0",
+      "author": {
+        "name": "HamCh"
+      },
+      "repository": "https://github.com/HamCh/claude-plugins",
+      "license": "MIT",
+      "keywords": ["insights", "analytics", "reporting", "usage", "history"]
+    }
+  ]
+}
